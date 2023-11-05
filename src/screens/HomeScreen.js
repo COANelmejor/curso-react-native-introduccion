@@ -7,7 +7,7 @@ export default function HomeScreen(props) {
   const goToSettings = () => {
     navigation.navigate('Settings');
   }
-  
+
   return (
     <SafeAreaView>
       <Text>HomeScreen</Text>
@@ -20,7 +20,7 @@ export default function HomeScreen(props) {
       <Text>HomeScreen</Text>
       <Text>HomeScreen</Text>
       <Text>HomeScreen</Text>
-      <Button onPress={goToSettings} title='Ir a Ajustes'/>
+      <Button onPress={goToSettings} title='Ir a Ajustes' />
     </SafeAreaView>
   )
 }
