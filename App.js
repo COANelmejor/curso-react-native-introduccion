@@ -13,6 +13,7 @@ export default function App() {
       <Saludar />
       <Saludar firstname="Juan" lastname="Perez" />
       <Saludar firstname="Maria" lastname="Garcia" />
+      <Saludar />
       <LoginForm />
     </View>
   );
