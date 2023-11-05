@@ -1,0 +1,52 @@
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# For more information about the properties used in this file, please see https://editorconfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,jsx,ts,tsx,html,css,scss,json,yml}]
+charset = utf-8
+
+# 2 space indentation
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.jsx]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+[*.tsx]
+indent_style = space
+indent_size = 2
+
+[*.html]
+indent_style = space
+indent_size = 2
+
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.scss]
+indent_style = space
+indent_size = 2
+
+# Trim trailing whitespaces
+[*.{js,jsx,ts,tsx,html,css,scss,json,yml}]
+trim_trailing_whitespace = true
+
+# Ensure files end with a single newline
+[*.{js,jsx,ts,tsx,html,css,scss,json,yml}]
+insert_final_newline = true
